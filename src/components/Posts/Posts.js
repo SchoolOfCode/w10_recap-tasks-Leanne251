@@ -8,7 +8,7 @@ import CommentForm from '../CommentForm/CommentForm';
 
 function Posts(props) {
 	return (
-		<div>
+		<div className={css.space}>
 			{articles.map((article) => {
 				return (
 					<article key={article.id} className={css.container}>
