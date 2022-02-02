@@ -1,0 +1,9 @@
+.postButton {
+	background-color: aquamarine;
+	border-radius: 5px;
+	border: 1px dotted blue;
+}
+
+textarea {
+	resize: none;
+}

@@ -1,33 +1,23 @@
-import "./App.css";
-import articles from "../../libs/articles";
+import './App.css';
+import { useState } from 'react';
+// import articles from "../../libs/articles";
+import Posts from '../Posts/Posts';
+import NewPost from '../NewPost/NewPost';
+import { Heading } from '@chakra-ui/react';
+import { Container } from '@chakra-ui/react';
 
 function App() {
-  return (
-    <main className="App">
-      <h1>WikiPigeon</h1>
-      {articles.map((article) => {
-        return (
-          <article key={article.id} className="post">
-            <h2>{article.title}</h2>
-            {article.paragraphs.map((paragraph) => (
-              <p key={paragraph.id}>{paragraph.text}</p>
-            ))}
-            <button className="like-button">Like 👍</button>
-            <section className="comment-section">
-              {article.comments.map((comment) => {
-                return (
-                  <div key={comment.id} className="comment">
-                    <h4>{comment.name} says:</h4>
-                    <p>{comment.text}</p>
-                  </div>
-                );
-              })}
-            </section>
-          </article>
-        );
-      })}
-    </main>
-  );
+	return (
+		<Container maxWidth="xl" padding={0}>
+			<main className="App">
+				<Heading as="h1" size="xl">
+					WikiPigeon
+				</Heading>
+				<NewPost />
+				<Posts />
+			</main>
+		</Container>
+	);
 }
 
 export default App;

@@ -1,0 +1,14 @@
+.container {
+	background-color: #fdf5bf;
+	border: 2px solid #92d1c3;
+}
+
+h4 {
+	font-size: 25px;
+	font-family: var(--comments);
+}
+
+p {
+	font-family: var(--comments);
+	font-size: 18px;
+}
