@@ -1,0 +1,31 @@
+* {
+	margin: 0px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+body {
+	--heading-font: 'Gentium Book Basic', serif;
+	--blog-font: 'Hind Madurai', sans-serif;
+	--comments: 'Pragati Narrow', sans-serif;
+}
+.container {
+	background-color: #8cbcb9;
+	border: 5px solid #dda448;
+	padding: 10px;
+}
+
+h1 {
+	font-family: var(--heading-font);
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 30px;
+	font-family: var(--blog-font);
+}
+
+p {
+	font-family: var(--blog-font);
+	font-size: 18px;
+}

@@ -1,0 +1,15 @@
+.container {
+	background-color: #fdf5bf;
+	border: 2px #92d1c3 solid;
+	padding: 10px;
+	text-align: center;
+}
+
+.commentPost {
+	background-color: #8cbcb9;
+	border: 2px solid #b7245c;
+	margin: 10px;
+}
+
+.css.formStyle {
+}
