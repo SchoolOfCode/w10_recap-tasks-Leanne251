@@ -11,7 +11,7 @@ function App() {
 		<Container maxWidth="xl" padding={0}>
 			<main className="App">
 				<Heading as="h1" size="xl">
-					WikiPigeon
+					WikiPigeon - Hello!
 				</Heading>
 				<NewPost />
 				<Posts />
